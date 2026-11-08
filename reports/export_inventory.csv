@@ -1,9 +1,0 @@
-file,records,data_columns,bytes
-data/processed/train_clean.csv,60000,171,63191851
-data/processed/train_row_quality.csv,60000,6,4854726
-data/processed/train_baseline_features.csv,60000,338,85893982
-data/processed/train_labels.csv,60000,1,648922
-data/processed/test_clean.csv,16000,171,16869549
-data/processed/test_row_quality.csv,16000,6,1198533
-data/processed/test_baseline_features.csv,16000,338,22931316
-data/processed/test_labels.csv,16000,1,164922

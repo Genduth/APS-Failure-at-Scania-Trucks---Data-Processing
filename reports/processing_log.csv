@@ -1,9 +1,0 @@
-area,action,decision
-Source,Download and verify,Pin official archive and file hashes; preserve raw bytes.
-Schema,Validate,"Require identical ordered feature columns, valid labels and numeric tokens."
-Missing values,Standardise,Convert documented na tokens to nullable values; preserve observed zero.
-Records,Retain,Keep incomplete records and class mix; do not silently deduplicate.
-Features,Retain,Keep all original features in conservative clean exports; flag sparse/constant values.
-Extreme values,Retain,No clipping without feature units or engineering limits.
-Lineage,Separate,Keep source positions and quality flags out of the numerical feature matrix.
-Optional baseline,Fit on train only,Apply training medians and training-defined missing indicators to test.
