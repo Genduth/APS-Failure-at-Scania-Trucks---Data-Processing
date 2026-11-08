@@ -1,0 +1,5 @@
+split,class,source_records,complete_records,records_lost,retained_pct
+train,neg,59000,515,58485,0.8728813559322033
+train,pos,1000,76,924,7.6
+test,neg,15625,135,15490,0.864
+test,pos,375,30,345,8.0

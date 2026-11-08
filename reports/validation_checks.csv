@@ -1,0 +1,30 @@
+check,passed
+train: row count and source order retained,True
+train: all 170 feature names retained,True
+train: labels retained,True
+train: observed values and missing positions retained,True
+train: lineage is one-to-one,True
+train: no negative or non-finite measurements,True
+train: prepared features have no missing cells,True
+train: label and row identifiers excluded from features,True
+train: filled values use training medians,True
+train: missing indicators describe original values,True
+test: row count and source order retained,True
+test: all 170 feature names retained,True
+test: labels retained,True
+test: observed values and missing positions retained,True
+test: lineage is one-to-one,True
+test: no negative or non-finite measurements,True
+test: prepared features have no missing cells,True
+test: label and row identifiers excluded from features,True
+test: filled values use training medians,True
+test: missing indicators describe original values,True
+Train/test prepared feature order matches,True
+Training medians exclude the label,True
+Published source class counts match,True
+Unseen test missingness uses a training median,True
+Unseen test missingness preserves feature schema,True
+train: conservative export round-trip,True
+train: baseline export round-trip,True
+test: conservative export round-trip,True
+test: baseline export round-trip,True

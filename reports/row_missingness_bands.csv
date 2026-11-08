@@ -1,0 +1,17 @@
+split,class,missing_band,records
+train,neg,Complete,515
+train,neg,>0-10% missing,44639
+train,neg,>10-50% missing,13434
+train,neg,>50% missing,412
+train,pos,Complete,76
+train,pos,>0-10% missing,369
+train,pos,>10-50% missing,547
+train,pos,>50% missing,8
+test,neg,Complete,135
+test,neg,>0-10% missing,11849
+test,neg,>10-50% missing,3532
+test,neg,>50% missing,109
+test,pos,Complete,30
+test,pos,>0-10% missing,132
+test,pos,>10-50% missing,208
+test,pos,>50% missing,5

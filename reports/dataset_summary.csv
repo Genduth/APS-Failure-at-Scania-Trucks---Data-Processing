@@ -1,0 +1,3 @@
+split,records,features,APS_cases,APS_sample_share_pct,missing_measurements,missing_measurements_pct,complete_records,all_missing_records
+train,60000,170,1000,1.6666666666666667,850015,8.333480392156863,591,0
+test,16000,170,375,2.34375,228680,8.40735294117647,165,0

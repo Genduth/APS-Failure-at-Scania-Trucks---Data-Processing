@@ -1,0 +1,3 @@
+split,records,APS_cases,APS_sample_share_pct,complete_records,all_records_retained_pct,APS_share_after_deletion_pct
+train,60000,1000,1.6666666666666667,591,0.985,12.859560067681894
+test,16000,375,2.34375,165,1.03125,18.181818181818183

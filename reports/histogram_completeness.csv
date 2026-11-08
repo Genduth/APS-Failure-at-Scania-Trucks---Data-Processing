@@ -1,0 +1,15 @@
+split,family,bins,complete_records,partial_records,all_bins_missing_records
+train,ag,10,59329,0,671
+test,ag,10,15811,0,189
+train,ay,10,59329,0,671
+test,ay,10,15808,0,192
+train,az,10,59329,0,671
+test,az,10,15808,0,192
+train,ba,10,59312,0,688
+test,ba,10,15807,0,193
+train,cn,10,59313,0,687
+test,cn,10,15806,0,194
+train,cs,10,59331,0,669
+test,cs,10,15811,0,189
+train,ee,10,59329,0,671
+test,ee,10,15808,0,192
