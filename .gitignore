@@ -1,7 +1,12 @@
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/aps_failure_training_set.csv
+!data/raw/aps_failure_test_set.csv
+!data/raw/aps_failure_description.txt
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/train_clean.csv
+!data/processed/test_clean.csv
 .work/
 .ipynb_checkpoints/
 __pycache__/

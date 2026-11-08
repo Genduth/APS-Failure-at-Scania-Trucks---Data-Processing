@@ -4,6 +4,18 @@ A straightforward data-cleaning project using the APS Failure at Scania Trucks d
 
 **[View the Jupyter notebook](notebooks/01_scania_aps_data_cleaning.ipynb)**
 
+The data is included: **[original CSVs](data/raw/)** · **[cleaned CSVs](data/processed/)**.
+
+## What do “train” and “test” mean?
+
+These names come from the original prediction challenge:
+
+- **Training data:** 60,000 records normally used to build a prediction model.
+- **Test data:** 16,000 separate records normally used to check how well that model works on data it has not learned from.
+
+For this project, we are simply cleaning the two supplied files. You do not need to
+build a prediction model to follow the notebook.
+
 ## Steps
 
 1. Load the training and test CSVs.
@@ -27,15 +39,15 @@ The feature names are anonymised. The notebook keeps their original names.
 
 ## Run it
 
-1. [Download the original dataset from UCI](https://archive.ics.uci.edu/static/public/421/aps+failure+at+scania+trucks.zip).
-2. Extract the original CSVs into `data/raw/`, keeping their source notices intact.
-3. Install pandas with `python -m pip install -r requirements.txt`.
-4. Open `notebooks/01_scania_aps_data_cleaning.ipynb` in Jupyter and run all cells.
+1. Clone or download this repository, including the `data` folder.
+2. Install pandas with `python -m pip install -r requirements.txt`.
+3. Open `notebooks/01_scania_aps_data_cleaning.ipynb` in Jupyter and run all cells.
 
-The notebook uses paths relative to the `notebooks` folder. It saves `train_clean.csv` and
-`test_clean.csv` in `data/processed/`. Large data files are excluded from Git; running the
-notebook creates the cleaned copies locally.
+The notebook uses paths relative to the `notebooks` folder. The original files are in
+`data/raw/`; the cleaned copies are `data/processed/train_clean.csv` and
+`data/processed/test_clean.csv`. Running the notebook recreates those cleaned copies.
 
 **Source:** [APS Failure at Scania Trucks — UCI Machine Learning Repository](https://doi.org/10.24432/C51S51).
+Original source notices and the accompanying dataset licence are retained in [data](data/README.md).
 
 **Author:** [George Warlow](https://github.com/Genduth)

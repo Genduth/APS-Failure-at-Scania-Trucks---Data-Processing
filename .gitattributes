@@ -1,0 +1,3 @@
+data/raw/*.csv -text
+data/raw/aps_failure_description.txt -text
+data/processed/*.csv -text
